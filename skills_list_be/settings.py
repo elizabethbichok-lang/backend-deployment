@@ -130,11 +130,11 @@ MAILERS = {
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:8080' ,
     'https://127.0.0.1:8080' ,
+    'https://skilllisttutorialassign1.netlify.app',
 )
-CORS_ALLOW_CREDENTIALS = True
+CORS_ORIGIN_ALLOW_ALL = True
 
 import os
-
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
